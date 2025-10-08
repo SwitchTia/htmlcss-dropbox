@@ -12,12 +12,38 @@
 
 /* 
 *******************************
+COMMON & LAYOUTS
+*******************************
+*/
+.header-container{
+    /* debug */
+    height: 100px;
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* 
+*******************************
+UTILITIES
+*******************************
+*/
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+/* 
+*******************************
 HEADER
 *******************************
- */
+*/
 
 header{
-    height: 100px;
+    /* height: 100px; */
     background-color: rgb(201, 222, 228);
     color: black;
 
@@ -27,4 +53,8 @@ header{
     left: 0;
     width: 100%;
     z-index: 9999 */
+}
+
+.header-logo{
+    height: 60px;
 }
