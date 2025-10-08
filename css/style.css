@@ -20,10 +20,27 @@ COMMON & LAYOUTS
     height: 100px;
 }
 
-.container{
+.big-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    /* debug */
+    height: 500px;
+    border: solid 3px;
+    background-color: bisque;
+}
+.small-container{
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    /* debug */
+    height: 300px;
+    border: solid 3px;
+    background-color: azure;
 }
 /* 
 *******************************
