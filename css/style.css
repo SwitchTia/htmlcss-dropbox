@@ -1,3 +1,30 @@
-body{
+/* body{
     background-color: aqua;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ img {
+    max-width: 100%;
+ }
+
+/* 
+*******************************
+HEADER
+*******************************
+ */
+
+header{
+    height: 100px;
+    background-color: rgb(201, 222, 228);
+    color: black;
+
+    /* advanced:
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999 */
 }
