@@ -20,17 +20,16 @@ COMMON & LAYOUTS
     height: 100px;
 }
 
-.big-container{
+.container{
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-
+    /* max-width: 1000px;
+     */
     /* debug */
     height: 500px;
     border: solid 3px;
     background-color: bisque;
 }
-.small-container{
+.big-container{
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
@@ -38,10 +37,37 @@ COMMON & LAYOUTS
     justify-content: center;
 
     /* debug */
-    height: 300px;
+    height: 200px;
     border: solid 3px;
     background-color: azure;
 }
+.small-container{
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    /* debug */
+    height: 200px;
+    border: solid 3px;
+    background-color: azure;
+}
+
+.col-40{
+    width: 40%;
+    /* debug */
+    border: solid 3px;
+}
+.col-60{
+    width: 60%;
+    /* debug */
+    border: solid 3px;
+}
+/* a {
+    text-decoration: none;
+    list-style: none;
+} */
 /* 
 *******************************
 UTILITIES
@@ -50,8 +76,17 @@ UTILITIES
 .flex{
     display: flex;
 }
+.justify-center{
+    justify-content: center;
+}
 .justify-between{
     justify-content: space-between;
+}
+.align-cont-center{
+    align-content: center;
+}
+.bg-blue{
+    background-color: lightblue;
 }
 /* 
 *******************************
