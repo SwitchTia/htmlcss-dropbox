@@ -38,7 +38,7 @@ body{
     /* debug */
     height: 200px;
     border: solid 2px gray;
-    background-color: azure;
+    background-color: rgb(123, 128, 128);
 }
 .small-container{
     width: 60%;
@@ -81,11 +81,15 @@ li{
     width: 60%;
 }
 
+.col-17{
+    width: 17%;
+    /* debug */
+    border: solid 2px gray;
+}
 .col-30{
     width: 30%;
     /* debug */
     border: solid 2px gray;
-   
 }
 
 .col-40{
@@ -126,8 +130,17 @@ UTILITIES
 .align-cont-center{
     align-content: center;
 }
-.bg-blue{
+.bg-lblue{
     background-color: lightblue;
+}
+.bg-blue{
+    background-color: rgb(48, 79, 215);
+}
+.bg-black{
+    background-color: rgb(0, 0, 0);
+}
+.white-txt{
+    color: white;
 }
 /* 
 *******************************
