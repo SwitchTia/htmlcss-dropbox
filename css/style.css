@@ -38,9 +38,9 @@ body{
     justify-content: center;
 
     /* debug */
-    height: 200px;
+    /* height: 200px;
     border: solid 2px gray;
-    background-color: rgb(123, 128, 128);
+    background-color: rgb(123, 128, 128); */
 }
 .small-container{
     width: 60%;
@@ -120,8 +120,8 @@ ul{
     /* debug */
     border: solid 2px gray;
 }
-.mg-top-50{
-    margin-top: 50px;
+.mg-top-100{
+    margin-top: 100px;
 }
 a {
   color: inherit;
