@@ -76,8 +76,8 @@ body{
     background-color: rgb(47, 47, 144);
     color: white;
     font-size: 0.8rem;
-    height: 30px;
-    width: 180px;
+    height: 40px;
+    width: 200px;
     padding: 5px 5px 5px 5px
 }
 .button-white{
@@ -109,6 +109,7 @@ h2{
 
 ul{
     list-style: none;
+    padding: 5px 5px 5px 5px;
 }
 
 .width-100{
@@ -126,7 +127,8 @@ ul{
 .col-30{
     width: 30%;
     /* debug */
-    border: solid 2px gray;
+    border: solid 2px rgb(167, 162, 162);
+    margin-top: 40px;
 }
 .col-35{
     width: 35%;
@@ -167,6 +169,10 @@ UTILITIES
 .arrow-size{
     font-size: 40px;
 }
+.padding-top-25{
+    padding-top: 25px;
+}
+
 .padding-bt{
     padding-bottom: 30px;
 }
@@ -219,6 +225,9 @@ UTILITIES
 }
 .white-txt{
     color: white;
+}
+.grey-txt{
+    color: grey;
 }
 /*
 *******************************
