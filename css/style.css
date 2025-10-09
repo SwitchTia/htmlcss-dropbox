@@ -87,6 +87,15 @@ body{
     width: calc(100% / 3 - 40px / 3);
 }
 
+ h1, h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-left: 20%;
+}
+
 ul{
     list-style: none;
 }
@@ -152,6 +161,9 @@ UTILITIES
 }
 .align-cont-center{
     align-content: center;
+}
+.text-align{
+    text-align: center;
 }
 .bg-lblue{
     background-color: lightblue;
