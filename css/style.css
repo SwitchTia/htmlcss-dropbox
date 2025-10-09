@@ -176,6 +176,10 @@ UTILITIES
 .padding-top-100{
     padding-top: 100px;
 }
+.padding-top-50{
+    padding-top: 50px;
+    padding-left: 20%;
+}
 .bb-1 {
     border-bottom: 1px solid;
     padding: 15px;
@@ -241,6 +245,16 @@ header{
 
 .padding{
     padding: 4px 10px 4px 10px;
+}
+
+/*
+*******************************
+FOOTER
+*******************************
+*/
+.separator{
+    width: 30%;
+    border: 1px solid white;
 }
 
 /*
