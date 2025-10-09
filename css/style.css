@@ -182,9 +182,12 @@ UTILITIES
 .padding-top-100{
     padding-top: 100px;
 }
-.padding-top-50{
+.padding-top-left{
     padding-top: 50px;
     padding-left: 20%;
+}
+.padding-top-50{
+    padding-top: 50px;
 }
 .bb-1 {
     border-bottom: 1px solid;
@@ -229,6 +232,9 @@ UTILITIES
 .grey-txt{
     color: grey;
 }
+.blue{
+    color: rgb(39, 39, 161);
+}
 /*
 *******************************
 HEADER
@@ -256,6 +262,15 @@ header{
     padding: 4px 10px 4px 10px;
 }
 
+/*
+*******************************
+MAIN
+*******************************
+*/
+.small-line{
+    width: 30%;
+    border: 1px solid grey
+}
 /*
 *******************************
 FOOTER
