@@ -8,8 +8,16 @@
 }
  img {
     max-width: 100%;
- }
+}
+/*
+*******************************
+CUSTOM PROPERTIES
+*******************************
+*/
 
+:root{
+    --padding-bt:4opx
+}
 /*
 *******************************
 COMMON & LAYOUTS
@@ -18,16 +26,16 @@ COMMON & LAYOUTS
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    line-height: normal
+    font-size: 1rem;
+    line-height: normal;
 }
 .container{
     width: 100%;
     /* max-width: 1000px;
      */
     /* debug */
-    height: 700px;
-    border: solid 2px gray;
+    /* height: 700px; */
+    /* border: solid 2px gray; */
     background-color: bisque;
 }
 .big-container{
@@ -46,14 +54,15 @@ body{
     width: 60%;
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 50px;
     /* display: flex;
     justify-content: center;
     gap: 10px; */
 
     /* debug */
-    height: 200px;
+    /* height: 200px;
     border: solid 2px gray;
-    background-color: azure;
+    background-color: azure; */
 }
 
 .row{
@@ -79,11 +88,12 @@ body{
     height: 30px;
     width: 150px;
     padding: 5px 5px 5px 5px
-    
+
 }
 .card-image {
   position: relative;
 }
+
 
 .col{
     width: calc(100% / 3 - 40px / 3);
@@ -118,18 +128,19 @@ ul{
 .col-30{
     width: 30%;
     /* debug */
-    border: solid 2px gray;
+    /* border: solid 2px gray; */
 }
 
 .col-40{
     width: 40%;
+    
     /* debug */
-    border: solid 2px gray;
+    /* border: solid 2px gray; */
 }
 .col-60{
     width: 60%;
     /* debug */
-    border: solid 2px gray;
+    /* border: solid 2px gray; */
 }
 .mg-top-100{
     margin-top: 100px;
@@ -144,9 +155,16 @@ a {
 UTILITIES
 *******************************
 */
+.arrow-size{
+    size: 50px;
+}
+.padding-bt{
+    padding-bottom: 20px;
+}
 .bb-1 {
     border-bottom: 1px solid;
     padding: 15px;
+    text-align: center;
 }
 .inline-block{
     display: inline-block;
@@ -154,6 +172,10 @@ UTILITIES
 .flex{
     display: flex;
     flex-direction: row;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
 }
 .justify-center{
     justify-content: center;
