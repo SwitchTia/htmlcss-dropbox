@@ -73,6 +73,7 @@ body{
 }
 
 .button-blue{
+    display: inline-block;
     background-color: rgb(47, 47, 144);
     color: white;
     font-size: 0.8rem;
@@ -81,6 +82,7 @@ body{
     padding: 5px 5px 5px 5px
 }
 .button-white{
+    display: inline-block;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 0.8rem;
@@ -213,6 +215,9 @@ UTILITIES
 }
 .align-cont-center{
     align-content: center;
+}
+.align-items-center{
+    align-items: center;
 }
 .text-align{
     text-align: center;
