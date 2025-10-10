@@ -219,6 +219,9 @@ UTILITIES
 .align-items-center{
     align-items: center;
 }
+.text-align-left{
+    text-align: left;
+}
 .text-align{
     text-align: center;
 }
